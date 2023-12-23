@@ -95,6 +95,7 @@ app.delete('/completed/:id', async (req,res) => {
 }
 run().catch(console.dir);
 
+//server
 
 app.get('/', (req,res) => {
     res.send ("Server Running")
